@@ -1,0 +1,29 @@
+body {
+    background-image: url("/images/backgroud-image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    background-color: #aaa;
+
+
+}
+
+ul li{
+    padding: 5px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100px;
+}
