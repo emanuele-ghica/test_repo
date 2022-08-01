@@ -6,3 +6,5 @@ this is a test.
 Added from outside.
 
 Some new code added.
+
+Some modified code.
