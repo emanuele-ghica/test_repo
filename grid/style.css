@@ -1,0 +1,16 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 grid-uri de 1fr */
+    grid-gap: 1em;
+    grid-auto-rows: minmax(80px, auto); /* inaltimea randului */
+}
+
+.wrapper > div {
+    background-color: lightgray;
+    font-size: 16px;
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(odd) {
+    background-color: grey;
+}
